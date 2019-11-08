@@ -1,0 +1,20 @@
+{
+    "Name": "OcularLDT",
+    "BIDSVersion": "1.2.0",
+    "License": "CC-BY",
+    "Authors": [
+        "Teon L Brooks",
+        "Laura Gwilliams",
+        "Alexandre Gramfort",
+        "Alec Marantz"
+    ],
+    "HowToAcknowledge": "",
+    "Funding": [
+        "NSF DGE-1342536 (TB)",
+        "Abu  Dhabi  Institute Grant G1001 (AM)"
+    ],
+    "ReferencesAndLinks": [
+        ""
+    ],
+    "DatasetDOI": ""
+}
