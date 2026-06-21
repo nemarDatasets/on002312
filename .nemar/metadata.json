@@ -1,7 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "OcularLDT",
+  "description": "OcularLDT is a neuroimaging dataset containing eye-tracking and neural recordings acquired during a lexical decision task with ocular components. The dataset includes multimodal data designed to investigate the relationship between eye movements and neural activity during language processing, providing a resource for studying the neural correlates of visual word recognition and oculomotor control.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,49 +11,6 @@
     "Alexandre Gramfort": {},
     "Alec Marantz": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds002312.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on002312",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002312",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "funding_references": [
-    {
-      "funder_name": "NSF",
-      "award_number": "DGE-1342536"
-    },
-    {
-      "funder_name": "Abu Dhabi Institute",
-      "award_number": "G1001"
-    }
-  ],
-  "modalities": [
-    "meg"
-  ],
-  "resource_type_specific": "MEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".edf",
-    ".fif",
-    ".gitattributes",
-    ".json",
-    ".md",
-    ".tsv"
-  ],
-  "description": "OcularLDT is a neuroimaging dataset containing ocular measurements and magnetoencephalography (MEG) recordings during a lexical decision task. The dataset combines eye-tracking and MEG data to investigate the neural correlates of lexical processing and the relationship between oculomotor behavior and language comprehension. This is a NEMAR-hosted mirror of the original OpenNeuro dataset (ds002312).",
   "keywords": [
     {
       "term": "lexical decision task"
@@ -85,5 +43,48 @@
       "term": "neural correlates"
     }
   ],
-  "source_hash": "62be43cb38a454da0b540db27054907956642125cc6ca5dd4c2dd3167b2dc057"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on002312",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002312",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds002312.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "NSF",
+      "award_number": "DGE-1342536"
+    },
+    {
+      "funder_name": "Abu Dhabi Institute",
+      "award_number": "G1001"
+    }
+  ],
+  "resource_type_specific": "MEG Dataset",
+  "modalities": [
+    "meg"
+  ],
+  "sizes": [
+    "37.5 GB (61 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".fif",
+    ".gitattributes",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "793df290d7a37ff0e93c3039264b1a86bb94b390af527480cc82e8d5c88c32e2"
 }
