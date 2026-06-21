@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "OcularLDT",
-  "description": "OcularLDT is a neuroimaging dataset containing eye-tracking and neural recordings acquired during a lexical decision task with ocular components. The dataset includes multimodal data designed to investigate the relationship between eye movements and neural activity during language processing, providing a resource for studying the neural correlates of visual word recognition and oculomotor control.",
+  "description": "OcularLDT is a neuroimaging dataset containing eye-tracking and MEG recordings acquired during a lexical decision task with ocular monitoring. The dataset provides synchronized measurements of oculomotor behavior and brain activity, enabling investigation of the relationship between eye movements and linguistic processing during word recognition tasks.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,34 +13,22 @@
   },
   "keywords": [
     {
-      "term": "lexical decision task"
-    },
-    {
       "term": "eye tracking"
     },
     {
-      "term": "ocular"
-    },
-    {
-      "term": "oculomotor"
-    },
-    {
-      "term": "saccades"
-    },
-    {
-      "term": "fixations"
+      "term": "lexical decision task"
     },
     {
       "term": "language processing"
     },
     {
-      "term": "magnetoencephalography"
+      "term": "oculomotor behavior"
     },
     {
       "term": "MEG"
     },
     {
-      "term": "neural correlates"
+      "term": "word recognition"
     }
   ],
   "related_identifiers": [
